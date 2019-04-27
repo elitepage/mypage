@@ -1,53 +1,36 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://www.files.froemling.net/bombsquad/promo/BombSquadBannerAlt.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 <body>
 
-<form action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
-<h2 class="w3-center">Contact Us</h2>
- 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
-    </div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+  <h1 class="w3-jumbo w3-center">  E.P.L.</h1>
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">EST. 40 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">ELITE GROUP</a>
+  </div>
 </div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
-    </div>
-</div>
-
-<p class="w3-center">
-<button class="w3-button w3-section w3-blue w3-ripple"> Send </button>
-</p>
-</form>
 
 </body>
-</html> 
+</html>
