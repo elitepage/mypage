@@ -1,35 +1,33 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="prac.css">
     <title>
         Practice
     </title>
-    <body>     
-    <div class="log">
-        <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
-            <input type="submit" value="login" formtarget="link.html">
-        </form>
-        </div>
+    <body>
         
         <style>
             body{
     margin: 0px;
     padding: 0px;
     background-image: url(https://www.froemling.net/wp-content/uploads/2011/05/promo3.jpg);
-  
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
+    background-position: center;
     
 }
 .log{
    
     width: 400px;
-    height: 510px;
+    height: 710px;
     border: solid cyan 2px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
     box-sizing: border-box;
-    padding: 170px 70px ;
+    padding: 110px 70px ;
     border-radius: 30px;
     background: black;
     filter: opacity(0.8)
@@ -55,7 +53,8 @@
     margin-left: 50px;
     background: transparent;
     color: grey;
-    border-radius:50px;      
+    border-radius:50px;   
+    
 }
 .log input[type="submit"]:hover{
     border-color: aqua;
@@ -63,9 +62,23 @@
     cursor: grab;
     box-shadow: 0 0 20px 0px;
 }
+
             </style>
         
-        
+    <div class="log">
+        <form action="link.html">
+        <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="text" placeholder="Google game ID">
+            <input type="text" placeholder="Gaming name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Phone">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State">
+            <input type="submit" value="Submit" formtarget="link.html">
+            
+        </form>
+        </div>
     </body>
     </head>
 </html>
