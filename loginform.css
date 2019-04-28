@@ -4,6 +4,7 @@ body{
     background-image: url(354970-best-4k-wallpaper-abstract-3840x2160-desktop.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     
 }
 .log{
