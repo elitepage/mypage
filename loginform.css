@@ -10,8 +10,8 @@ body{
 }
 .log{
    
-    width: 400px;
-    height: 510px;
+    width: 600px;
+    height: 910px;
     border: solid cyan 2px;
     top: 50%;
     left: 50%;
@@ -27,6 +27,7 @@ body{
 .log input{
     width: 100%;
     margin-bottom: 40px;
+    padding-top:25px;
     
 }
 .log input[type="text"],input[type="password"]{
